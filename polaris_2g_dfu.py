@@ -22,3 +22,4 @@ class Polaris2GDFU(Board):
     def __init__(self,info={},dev={}):
         super().__init__(info,dev)
         self._info["name"] = "Polaris2G DFU"
+
